@@ -1,0 +1,50 @@
+.google-map {
+  background: #f1f1f18c;
+  // padding-bottom: 100px;
+
+  @media (max-width: 768px) {
+    padding-bottom: 50px;
+  }
+
+  .social_link {
+    padding-top: 100px;
+    @media (max-width: 768px) {
+      padding-top: 50px;
+    }
+
+    .social_icon {
+      border-right: 1px solid #ccc;
+      text-align: center;
+      i {
+        font-size: 50px;
+        color: #777;
+        cursor: pointer;
+        @media (max-width: 768px) {
+          font-size: 25px;
+        }
+      }
+
+      i.facebook:hover {
+        color: #1877f2;
+      }
+      i.twi:hover {
+        color: #000;
+      }
+      i.linked:hover {
+        color: #0072b1;
+      }
+      i.you:hover {
+        color: #ff0000;
+      }
+    }
+
+    .social_icon.last {
+      border-right: unset;
+    }
+    @media (max-width: 768px) {
+      .social_icon.mlast {
+        border-right: unset;
+      }
+    }
+  }
+}

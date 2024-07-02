@@ -1,0 +1,64 @@
+.hero {
+  background-image: url("https://img.freepik.com/free-photo/remote-control-sound-settings-from-tablet_169016-23700.jpg?t=st=1719664126~exp=1719667726~hmac=4a18a5504297b7b432ab10b5de4e9bf1528785c1dbb1b91e5b1b9833ff82189b&w=996");
+  height: 800px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 250px;
+
+  @media (max-width: 768px) {
+    padding-top: 150px;
+    height: 600px;
+  }
+
+  &:after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    // opacity: 0.55;
+    background: rgba(14, 15, 32, 0.7);
+  }
+
+  .hero-content {
+    width: 60%;
+    position: relative;
+    z-index: 50;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 50px;
+      font-weight: 500;
+      padding-bottom: 30px;
+
+      @media (max-width: 768px) {
+        font-size: 30px;
+      }
+    }
+
+    p {
+      color: #fff;
+      font-size: 18px;
+      padding-bottom: 30px;
+
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.help_center {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+  p {
+    padding: 20px 0;
+  }
+}

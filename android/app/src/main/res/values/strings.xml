@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">vi-connect</string>
+    <string name="title_activity_main">vi-connect</string>
+    <string name="package_name">com.viconnect.app</string>
+    <string name="custom_url_scheme">com.viconnect.app</string>
+</resources>

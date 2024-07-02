@@ -1,0 +1,48 @@
+.contact_us_form {
+  padding-top: 100px;
+
+  @media (max-width: 768px) {
+    padding-top: 50px;
+  }
+
+  .contact_form {
+    input {
+      width: 100%;
+      margin-bottom: 15px;
+      height: 50px;
+      padding-left: 10px;
+      border: none;
+      outline: none;
+      border-bottom: 2px solid #ddd;
+    }
+
+    textarea {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border: none;
+      outline: none;
+      border-bottom: 2px solid #ddd;
+    }
+
+    select {
+      width: 100%;
+      margin-bottom: 15px;
+      height: 50px;
+      padding-left: 10px;
+      border: none;
+      outline: none;
+      border-bottom: 2px solid #ddd;
+    }
+
+    textarea {
+      padding: 10px;
+    }
+
+    input:focus,
+    textarea:focus,
+    select:focus {
+      border-bottom: 2px solid #27135b;
+    }
+  }
+}

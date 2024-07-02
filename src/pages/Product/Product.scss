@@ -1,0 +1,50 @@
+.prod_sec {
+  padding: 100px 0;
+  @media (max-width: 768px) {
+    padding: 50px 0;
+  }
+}
+
+.product_card,
+.ind_card {
+  background: #fff;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+
+  h5 {
+    padding-top: 20px;
+  }
+
+  &:hover {
+    background: #ddd;
+  }
+}
+
+.ind_app {
+  padding-top: 100px;
+  @media (max-width: 768px) {
+    padding-top: 50px;
+  }
+}
+
+.boxx {
+  padding-top: 50px;
+}
+
+.services {
+  padding-top: 100px;
+
+  img {
+    width: 50px;
+  }
+}
+
+.sdsdsd {
+  img {
+    width: 100%;
+  }
+}
